@@ -42,7 +42,7 @@ public class TestNG {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void register() {
 		driver.findElement(By.xpath("//td[@class='mouseOut']/a[contains(text(),'REGISTER')]")).click();
 		expectedResult = "Register: Mercury Tours";
@@ -50,7 +50,7 @@ public class TestNG {
 		Assert.assertEquals(actualResult, expectedResult, "Title is not equals");		
 	}
 	
-	@Test
+	@Test(priority = 0, enabled = false)
 	public void support() {
 		driver.findElement(By.xpath("//td[@class='mouseOut']/a[contains(text(),'SUPPORT')]")).click();
 		expectedResult = "Under Construction: Mercury Tours";

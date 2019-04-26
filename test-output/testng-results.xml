@@ -2,44 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13372" started-at="2019-04-26T18:33:15Z" finished-at="2019-04-26T18:33:28Z">
+  <suite name="Default suite" duration-ms="51" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13372" started-at="2019-04-26T18:33:15Z" finished-at="2019-04-26T18:33:28Z">
-      <class name="org.testerselenium.intermedio.TestNG">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="launchBrowser" is-config="true" duration-ms="6542" started-at="2019-04-26T18:33:15Z" finished-at="2019-04-26T18:33:22Z">
+    <test name="Default test" duration-ms="51" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+      <class name="org.testerselenium.intermedio.TestNGAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeSuite" is-config="true" duration-ms="21" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="verifyHomePageTitle" is-config="true" duration-ms="10" started-at="2019-04-26T18:33:22Z" finished-at="2019-04-26T18:33:22Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="register()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="register" duration-ms="3569" started-at="2019-04-26T18:33:22Z" finished-at="2019-04-26T18:33:25Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register -->
-        <test-method status="PASS" signature="goBakToHomePage()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="goBakToHomePage" is-config="true" duration-ms="887" started-at="2019-04-26T18:33:25Z" finished-at="2019-04-26T18:33:26Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goBakToHomePage -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="verifyHomePageTitle" is-config="true" duration-ms="5" started-at="2019-04-26T18:33:26Z" finished-at="2019-04-26T18:33:26Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="testCase1" duration-ms="6" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="support()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="support" duration-ms="934" started-at="2019-04-26T18:33:26Z" finished-at="2019-04-26T18:33:27Z">
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- support -->
-        <test-method status="PASS" signature="goBakToHomePage()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="goBakToHomePage" is-config="true" duration-ms="704" started-at="2019-04-26T18:33:27Z" finished-at="2019-04-26T18:33:28Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goBakToHomePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testerselenium.intermedio.TestNG@28d25987]" name="tearDown" is-config="true" duration-ms="692" started-at="2019-04-26T18:33:28Z" finished-at="2019-04-26T18:33:28Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="testCase2" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- org.testerselenium.intermedio.TestNG -->
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterTest" is-config="true" duration-ms="2" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.testerselenium.intermedio.TestNGAnnotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
