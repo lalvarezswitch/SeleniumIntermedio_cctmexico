@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.testerselenium.intermedio.TestNG" duration-ms="11750" started-at="2019-04-26T18:35:08Z" finished-at="2019-04-26T18:35:20Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11750" started-at="2019-04-26T18:35:08Z" finished-at="2019-04-26T18:35:20Z">
+      <class name="org.testerselenium.intermedio.TestNG">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="launchBrowser" is-config="true" duration-ms="7379" started-at="2019-04-26T18:35:08Z" finished-at="2019-04-26T18:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="verifyHomePageTitle" is-config="true" duration-ms="13" started-at="2019-04-26T18:35:16Z" finished-at="2019-04-26T18:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="register()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="register" duration-ms="1702" started-at="2019-04-26T18:35:16Z" finished-at="2019-04-26T18:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="goBakToHomePage()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="goBakToHomePage" is-config="true" duration-ms="628" started-at="2019-04-26T18:35:17Z" finished-at="2019-04-26T18:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBakToHomePage -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="verifyHomePageTitle" is-config="true" duration-ms="8" started-at="2019-04-26T18:35:18Z" finished-at="2019-04-26T18:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="support()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="support" duration-ms="685" started-at="2019-04-26T18:35:18Z" finished-at="2019-04-26T18:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method status="PASS" signature="goBakToHomePage()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="goBakToHomePage" is-config="true" duration-ms="632" started-at="2019-04-26T18:35:19Z" finished-at="2019-04-26T18:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBakToHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testerselenium.intermedio.TestNG@22f71333]" name="tearDown" is-config="true" duration-ms="677" started-at="2019-04-26T18:35:19Z" finished-at="2019-04-26T18:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testerselenium.intermedio.TestNG -->
+    </test> <!-- Command line test -->
+  </suite> <!-- org.testerselenium.intermedio.TestNG -->
+</testng-results>
