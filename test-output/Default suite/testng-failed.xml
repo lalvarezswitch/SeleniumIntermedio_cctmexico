@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testMethod"/>
+          <include name="testMethod" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- org.testerselenium.intermedio.DataProviderExample -->
     </classes>

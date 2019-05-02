@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="2" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20837" started-at="2019-05-02T13:24:51Z" finished-at="2019-05-02T13:25:12Z">
+  <suite name="Suite Groups" duration-ms="40751" started-at="2019-05-02T15:15:06Z" finished-at="2019-05-02T15:15:47Z">
     <groups>
+      <group name="A">
+        <method signature="ParameterByITestContext.testMethodA(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@29774679]" name="testMethodA" class="org.testerselenium.intermedio.ParameterByITestContext"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="ParameterByITestContext.testMethodB(java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@204f30ec]" name="testMethodB" class="org.testerselenium.intermedio.ParameterByITestContext"/>
+      </group> <!-- B -->
     </groups>
-    <test name="Default test" duration-ms="20837" started-at="2019-05-02T13:24:51Z" finished-at="2019-05-02T13:25:12Z">
-      <class name="org.testerselenium.intermedio.DataProviderExample">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="setUp" is-config="true" duration-ms="7204" started-at="2019-05-02T13:24:51Z" finished-at="2019-05-02T13:24:58Z">
+    <test name="Test A" duration-ms="21977" started-at="2019-05-02T15:15:06Z" finished-at="2019-05-02T15:15:28Z">
+      <class name="org.testerselenium.intermedio.ParameterByITestContext">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@29774679]" name="setUp" is-config="true" duration-ms="8433" started-at="2019-05-02T15:15:06Z" finished-at="2019-05-02T15:15:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3271" started-at="2019-05-02T13:24:58Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:02Z">
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@29774679]" name="testMethodA" duration-ms="3300" started-at="2019-05-02T15:15:15Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Fernando]]>
+                <![CDATA[Isabel]]>
               </value>
             </param>
             <param index="1">
@@ -26,12 +32,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3177" started-at="2019-05-02T13:25:02Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:05Z">
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@29774679]" name="testMethodA" duration-ms="3152" started-at="2019-05-02T15:15:18Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Luis]]>
+                <![CDATA[Ernesto]]>
               </value>
             </param>
             <param index="1">
@@ -42,28 +48,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3184" started-at="2019-05-02T13:25:05Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:08Z">
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@29774679]" name="testMethodA" duration-ms="3168" started-at="2019-05-02T15:15:21Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Sara]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gmail]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3225" started-at="2019-05-02T13:25:08Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lorena]]>
+                <![CDATA[Gabriela]]>
               </value>
             </param>
             <param index="1">
@@ -74,12 +64,80 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="tearDown" is-config="true" duration-ms="732" started-at="2019-05-02T13:25:11Z" finished-at="2019-05-02T13:25:12Z">
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@29774679]" name="testMethodA" duration-ms="3145" started-at="2019-05-02T15:15:24Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pedro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@29774679]" name="tearDown" is-config="true" duration-ms="725" started-at="2019-05-02T15:15:28Z" finished-at="2019-05-02T15:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.testerselenium.intermedio.DataProviderExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- org.testerselenium.intermedio.ParameterByITestContext -->
+    </test> <!-- Test A -->
+    <test name="Test B" duration-ms="18704" started-at="2019-05-02T15:15:28Z" finished-at="2019-05-02T15:15:47Z">
+      <class name="org.testerselenium.intermedio.ParameterByITestContext">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@204f30ec]" name="setUp" is-config="true" duration-ms="6052" started-at="2019-05-02T15:15:28Z" finished-at="2019-05-02T15:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@204f30ec]" name="testMethodB" duration-ms="3204" started-at="2019-05-02T15:15:34Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mexico]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@204f30ec]" name="testMethodB" duration-ms="3134" started-at="2019-05-02T15:15:38Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[China]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@204f30ec]" name="testMethodB" duration-ms="3143" started-at="2019-05-02T15:15:41Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rusia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:org.testerselenium.intermedio.ParameterByITestContext@204f30ec]" name="testMethodB" duration-ms="3160" started-at="2019-05-02T15:15:44Z" data-provider="SearchProvider" finished-at="2019-05-02T15:15:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Japon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+      </class> <!-- org.testerselenium.intermedio.ParameterByITestContext -->
+    </test> <!-- Test B -->
+  </suite> <!-- Suite Groups -->
 </testng-results>
