@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.testerselenium.intermedio.TestNG">
+      <class name="org.testerselenium.intermedio.DataProviderExample">
         <methods>
-          <include name="goBakToHomePage"/>
-          <include name="verifyHomePageTitle"/>
-          <include name="register"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="launchBrowser"/>
+          <include name="testMethod"/>
         </methods>
-      </class> <!-- org.testerselenium.intermedio.TestNG -->
+      </class> <!-- org.testerselenium.intermedio.DataProviderExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

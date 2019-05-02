@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--2019072369\testng-customsuite.xml</span>
+                    <span>C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--1290126225\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.TestNGAnnotations" hash-for-method="testCase1">testCase1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Fernando, Google)">testMethod(Fernando, Google)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.TestNGAnnotations" hash-for-method="testCase2">testCase2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Luis, Yahoo)">testMethod(Luis, Yahoo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Lorena, Amazon)">testMethod(Lorena, Amazon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Sara, Gmail)">testMethod(Sara, Gmail)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +135,39 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.testerselenium.intermedio.TestNGAnnotations</span>
+              <span class="class-name">org.testerselenium.intermedio.DataProviderExample</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase1">
-                  </a> <!-- testCase1 -->
-                  <span class="method-name">testCase1</span>
+                  <a name="testMethod(Fernando, Google)">
+                  </a> <!-- testMethod(Fernando, Google) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Fernando, Google)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase2">
-                  </a> <!-- testCase2 -->
-                  <span class="method-name">testCase2</span>
+                  <a name="testMethod(Luis, Yahoo)">
+                  </a> <!-- testMethod(Luis, Yahoo) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Luis, Yahoo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(Lorena, Amazon)">
+                  </a> <!-- testMethod(Lorena, Amazon) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Lorena, Amazon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(Sara, Gmail)">
+                  </a> <!-- testMethod(Sara, Gmail) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Sara, Gmail)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +175,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--2019072369\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--1290126225\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +184,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.testerselenium.intermedio.TestNGAnnotations&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.DataProviderExample&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -196,20 +224,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCase1')
-data.setCell(0, 2, 'org.testerselenium.intermedio.TestNGAnnotations')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'testMethod')
+data.setCell(0, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(0, 3, 3271);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCase2')
-data.setCell(1, 2, 'org.testerselenium.intermedio.TestNGAnnotations')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'testMethod')
+data.setCell(1, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(1, 3, 3225);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMethod')
+data.setCell(2, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(2, 3, 3184);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMethod')
+data.setCell(3, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(3, 3, 3177);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 ms</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,55 +271,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.testerselenium.intermedio.TestNGAnnotations</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              <div class="chronological-class-name">org.testerselenium.intermedio.DataProviderExample</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">38 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">48 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCase1</span>
-                <span class="method-start">49 ms</span>
+                <span class="method-name">testMethod(Fernando, Google)</span>
+                <span class="method-start">7232 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">62 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">64 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCase2</span>
-                <span class="method-start">64 ms</span>
+                <span class="method-name">testMethod(Luis, Yahoo)</span>
+                <span class="method-start">10506 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">68 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">69 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">testMethod(Sara, Gmail)</span>
+                <span class="method-start">13687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(Lorena, Amazon)</span>
+                <span class="method-start">16872 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">71 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20101 ms</span>
               </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">135 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,61 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+  <suite name="Default suite" duration-ms="20837" started-at="2019-05-02T13:24:51Z" finished-at="2019-05-02T13:25:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
-      <class name="org.testerselenium.intermedio.TestNGAnnotations">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeSuite" is-config="true" duration-ms="21" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+    <test name="Default test" duration-ms="20837" started-at="2019-05-02T13:24:51Z" finished-at="2019-05-02T13:25:12Z">
+      <class name="org.testerselenium.intermedio.DataProviderExample">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="setUp" is-config="true" duration-ms="7204" started-at="2019-05-02T13:24:51Z" finished-at="2019-05-02T13:24:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3271" started-at="2019-05-02T13:24:58Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fernando]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3177" started-at="2019-05-02T13:25:02Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luis]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3184" started-at="2019-05-02T13:25:05Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sara]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gmail]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="testCase1" duration-ms="6" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="testMethod" duration-ms="3225" started-at="2019-05-02T13:25:08Z" data-provider="SearchProvider" finished-at="2019-05-02T13:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lorena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testerselenium.intermedio.DataProviderExample@59fa1d9b]" name="tearDown" is-config="true" duration-ms="732" started-at="2019-05-02T13:25:11Z" finished-at="2019-05-02T13:25:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="testCase2" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterTest" is-config="true" duration-ms="2" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.testerselenium.intermedio.TestNGAnnotations@46d56d67]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-04-26T20:19:08Z" finished-at="2019-04-26T20:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- org.testerselenium.intermedio.TestNGAnnotations -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testerselenium.intermedio.DataProviderExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
