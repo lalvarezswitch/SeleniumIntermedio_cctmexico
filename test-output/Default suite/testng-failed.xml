@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.testerselenium.intermedio.ParameterByITestContext">
+      <class name="org.testerselenium.intermedio.reports.PdfEmail">
         <methods>
-          <include name="setUp"/>
-          <include name="testMethodB"/>
-          <include name="testMethodA"/>
-          <include name="tearDown"/>
+          <include name="testThree"/>
+          <include name="closeBrowser"/>
+          <include name="testOne"/>
+          <include name="sendEmail"/>
         </methods>
-      </class> <!-- org.testerselenium.intermedio.ParameterByITestContext -->
+      </class> <!-- org.testerselenium.intermedio.reports.PdfEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

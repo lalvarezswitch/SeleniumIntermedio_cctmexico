@@ -31,7 +31,7 @@ public class BaseClass {
 	
 	public static WebDriver getDriver() {
 		if (driver == null) {
-			System.setProperty("webdriver.chorome.driver", chromePath);
+			System.setProperty("webdriver.chrome.driver", chromePath);
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
@@ -48,11 +48,11 @@ public class BaseClass {
 	public static void sendPdfReportByEmail(String from, String pass, String to, String subject, String body) {
 		Properties props = System.getProperties();
 		String host = "smtp.gmail.com";
-		props.put("mail.smtp.starttls.enabled", "true");
+		props.put("mail.smtp.starttls.enable", "true");
 		props.put("mail.smtp.host", host);
 		props.put("mail.smtp.user", from);
 		props.put("mail.smtp.password", pass);
-		props.put("mail.smtp.port", "25");//25, 465, 587
+		props.put("mail.smtp.port", "587");//25, 465, 587
 		props.put("mail.snt.auth", "true");
 		Session session = Session.getDefaultInstance(props);
 		MimeMessage message = new MimeMessage(session);
@@ -78,7 +78,7 @@ public class BaseClass {
 			
 			message.setContent(multipart);
 			Transport transport =  session.getTransport("smtp");
-			transport.connect(host,from,to);
+			transport.connect(host,from,pass);
 			transport.sendMessage(message, message.getAllRecipients());
 			transport.close();
 		} catch (AddressException e) {

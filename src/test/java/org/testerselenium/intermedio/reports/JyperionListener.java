@@ -113,7 +113,7 @@ public class JyperionListener implements ITestListener {
 		log("onTestFailure("+result+")");
 		
 		/*
-		 * Adding code to instruct Jyperion to take screensot on error
+		 * Adding code to instruct Jyperion to take screenshot on error
 		 */
 		String file = System.getProperty("user.dir") + "/screenshot" + new Random().nextInt() + ".png";
 		try {
