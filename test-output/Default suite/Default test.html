@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 03 10:46:43 UYT 2019</td>
+<td>Started on:</td><td>Mon May 06 14:53:23 UYT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>62 seconds (62718 ms)</td>
+<tr><td>Total time:</td><td>90 seconds (90254 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,122 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByITestContext.testMethodA()'><b>testMethodA</b><br>Test class: org.testerselenium.intermedio.ParameterByITestContext</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1800649922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1800649922'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>org.testerselenium.intermedio.ParameterByITestContext@4dfa3a9d</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByITestContext.testMethodB()'><b>testMethodB</b><br>Test class: org.testerselenium.intermedio.ParameterByITestContext</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace172215878", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace172215878'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>org.testerselenium.intermedio.ParameterByITestContext@4dfa3a9d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,12 +194,82 @@ function toggleAllBoxes() {
 <td title='org.testerselenium.intermedio.JavaScript.goToRegisterPage()'><b>goToRegisterPage</b><br>Test class: org.testerselenium.intermedio.JavaScript</td>
 <td></td>
 <td>4</td>
-<td>org.testerselenium.intermedio.JavaScript@26653222</td></tr>
+<td>org.testerselenium.intermedio.JavaScript@754ba872</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.TestNG.register()'><b>register</b><br>Test class: org.testerselenium.intermedio.TestNG</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.TestNG@204f30ec</td></tr>
 <tr>
 <td title='org.testerselenium.intermedio.JavaScript.registerAnUser()'><b>registerAnUser</b><br>Test class: org.testerselenium.intermedio.JavaScript</td>
 <td></td>
-<td>51</td>
-<td>org.testerselenium.intermedio.JavaScript@26653222</td></tr>
+<td>24</td>
+<td>org.testerselenium.intermedio.JavaScript@754ba872</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.TestNGAnnotations.testCase1()'><b>testCase1</b><br>Test class: org.testerselenium.intermedio.TestNGAnnotations</td>
+<td></td>
+<td>0</td>
+<td>org.testerselenium.intermedio.TestNGAnnotations@77cd7a0</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.TestNGAnnotations.testCase2()'><b>testCase2</b><br>Test class: org.testerselenium.intermedio.TestNGAnnotations</td>
+<td></td>
+<td>0</td>
+<td>org.testerselenium.intermedio.TestNGAnnotations@77cd7a0</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.DataProviderExample.testMethod()'><b>testMethod</b><br>Test class: org.testerselenium.intermedio.DataProviderExample<br>Parameters: Fernando, Google</td>
+<td></td>
+<td>3</td>
+<td>org.testerselenium.intermedio.DataProviderExample@146ba0ac</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.DataProviderExample.testMethod()'><b>testMethod</b><br>Test class: org.testerselenium.intermedio.DataProviderExample<br>Parameters: Luis, Yahoo</td>
+<td></td>
+<td>3</td>
+<td>org.testerselenium.intermedio.DataProviderExample@146ba0ac</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.DataProviderExample.testMethod()'><b>testMethod</b><br>Test class: org.testerselenium.intermedio.DataProviderExample<br>Parameters: Sara, Gmail</td>
+<td></td>
+<td>3</td>
+<td>org.testerselenium.intermedio.DataProviderExample@146ba0ac</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.DataProviderExample.testMethod()'><b>testMethod</b><br>Test class: org.testerselenium.intermedio.DataProviderExample<br>Parameters: Lorena, Amazon</td>
+<td></td>
+<td>3</td>
+<td>org.testerselenium.intermedio.DataProviderExample@146ba0ac</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByMethod.testMethodA()'><b>testMethodA</b><br>Test class: org.testerselenium.intermedio.ParameterByMethod<br>Parameters: Fernando, Google</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.ParameterByMethod@e25b2fe</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByMethod.testMethodA()'><b>testMethodA</b><br>Test class: org.testerselenium.intermedio.ParameterByMethod<br>Parameters: Luis, Yahoo</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.ParameterByMethod@e25b2fe</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByMethod.testMethodA()'><b>testMethodA</b><br>Test class: org.testerselenium.intermedio.ParameterByMethod<br>Parameters: Sara, Gmail</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.ParameterByMethod@e25b2fe</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByMethod.testMethodA()'><b>testMethodA</b><br>Test class: org.testerselenium.intermedio.ParameterByMethod<br>Parameters: Lorena, Amazon</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.ParameterByMethod@e25b2fe</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByMethod.testMethodB()'><b>testMethodB</b><br>Test class: org.testerselenium.intermedio.ParameterByMethod<br>Parameters: Mexico</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.ParameterByMethod@e25b2fe</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByMethod.testMethodB()'><b>testMethodB</b><br>Test class: org.testerselenium.intermedio.ParameterByMethod<br>Parameters: China</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.ParameterByMethod@e25b2fe</td></tr>
+<tr>
+<td title='org.testerselenium.intermedio.ParameterByMethod.testMethodB()'><b>testMethodB</b><br>Test class: org.testerselenium.intermedio.ParameterByMethod<br>Parameters: Rusia</td>
+<td></td>
+<td>2</td>
+<td>org.testerselenium.intermedio.ParameterByMethod@e25b2fe</td></tr>
 </table><p>
 </body>
 </html>

@@ -2,6 +2,7 @@ package org.testerselenium.intermedio.reports;
 
 import java.awt.Color;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Random;
@@ -18,6 +19,8 @@ import com.lowagie.text.Element;
 import com.lowagie.text.Font;
 import com.lowagie.text.FontFactory;
 import com.lowagie.text.Paragraph;
+import com.lowagie.text.pdf.PdfAction;
+import com.lowagie.text.pdf.PdfCell;
 import com.lowagie.text.pdf.PdfPCell;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
@@ -112,7 +115,12 @@ public class JyperionListener implements ITestListener {
 		/*
 		 * Adding code to instruct Jyperion to take screensot on error
 		 */
-		
+		String file = System.getProperty("user.dir") + "/screenshot" + new Random().nextInt() + ".png";
+		try {
+			BaseClass.takeScreenShot(BaseClass.getDriver(), file);			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}				
 		//*******************************************************************************************************
 		if (this.failTable == null) {
 			this.failTable = new PdfPTable(new float[]{.3f, .3f, .1f, .3f});
@@ -155,7 +163,12 @@ public class JyperionListener implements ITestListener {
 			this.nbExceptions++;
 			
 			//***************************** Attach screenshots ****************************
-			
+			Chunk imbd = new Chunk("[SCREEN SHOT]", new Font(Font.TIMES_ROMAN,Font.DEFAULTSIZE, Font.UNDERLINE));
+			imbd.setAction(new PdfAction("file:///" + file));
+			Paragraph excep = new Paragraph(throwable.toString());
+			excep.add(imbd);
+			cell =  new PdfPCell(excep);
+			this.failTable.addCell(cell);
 			//*************************************************************************** */
 		} else {
 			this.failTable.addCell(new PdfPCell(new Paragraph("")));

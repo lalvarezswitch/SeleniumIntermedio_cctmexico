@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--1283472162\testng-customsuite.xml</span>
+                    <span>C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--1959716630\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Default_suite">
-                    <span>0 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">18 methods, 2 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByITestContext" hash-for-method="testMethodA">testMethodA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByITestContext" hash-for-method="testMethodB">testMethodB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,7 +126,77 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.TestNG" hash-for-method="register">register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.JavaScript" hash-for-method="registerAnUser">registerAnUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.TestNGAnnotations" hash-for-method="testCase1">testCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.TestNGAnnotations" hash-for-method="testCase2">testCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Fernando, Google)">testMethod(Fernando, Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Sara, Gmail)">testMethod(Sara, Gmail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Luis, Yahoo)">testMethod(Luis, Yahoo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.DataProviderExample" hash-for-method="testMethod(Lorena, Amazon)">testMethod(Lorena, Amazon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByMethod" hash-for-method="testMethodA(Luis, Yahoo)">testMethodA(Luis, Yahoo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByMethod" hash-for-method="testMethodA(Sara, Gmail)">testMethodA(Sara, Gmail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByMethod" hash-for-method="testMethodA(Fernando, Google)">testMethodA(Fernando, Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByMethod" hash-for-method="testMethodA(Lorena, Amazon)">testMethodA(Lorena, Amazon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByMethod" hash-for-method="testMethodB(China)">testMethodB(China)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByMethod" hash-for-method="testMethodB(Mexico)">testMethodB(Mexico)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testerselenium.intermedio.ParameterByMethod" hash-for-method="testMethodB(Rusia)">testMethodB(Rusia)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,6 +211,181 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.testerselenium.intermedio.ParameterByITestContext</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodA">
+                  </a> <!-- testMethodA -->
+                  <span class="method-name">testMethodA</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodB">
+                  </a> <!-- testMethodB -->
+                  <span class="method-name">testMethodB</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testerselenium.intermedio.TestNGAnnotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase1">
+                  </a> <!-- testCase1 -->
+                  <span class="method-name">testCase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase2">
+                  </a> <!-- testCase2 -->
+                  <span class="method-name">testCase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testerselenium.intermedio.ParameterByMethod</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodA(Luis, Yahoo)">
+                  </a> <!-- testMethodA(Luis, Yahoo) -->
+                  <span class="method-name">testMethodA</span>
+                  <span class="parameters">(Luis, Yahoo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodA(Sara, Gmail)">
+                  </a> <!-- testMethodA(Sara, Gmail) -->
+                  <span class="method-name">testMethodA</span>
+                  <span class="parameters">(Sara, Gmail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodA(Fernando, Google)">
+                  </a> <!-- testMethodA(Fernando, Google) -->
+                  <span class="method-name">testMethodA</span>
+                  <span class="parameters">(Fernando, Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodA(Lorena, Amazon)">
+                  </a> <!-- testMethodA(Lorena, Amazon) -->
+                  <span class="method-name">testMethodA</span>
+                  <span class="parameters">(Lorena, Amazon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodB(China)">
+                  </a> <!-- testMethodB(China) -->
+                  <span class="method-name">testMethodB</span>
+                  <span class="parameters">(China)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodB(Mexico)">
+                  </a> <!-- testMethodB(Mexico) -->
+                  <span class="method-name">testMethodB</span>
+                  <span class="parameters">(Mexico)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethodB(Rusia)">
+                  </a> <!-- testMethodB(Rusia) -->
+                  <span class="method-name">testMethodB</span>
+                  <span class="parameters">(Rusia)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testerselenium.intermedio.TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register">
+                  </a> <!-- register -->
+                  <span class="method-name">register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -144,10 +408,50 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testerselenium.intermedio.DataProviderExample</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(Fernando, Google)">
+                  </a> <!-- testMethod(Fernando, Google) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Fernando, Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(Sara, Gmail)">
+                  </a> <!-- testMethod(Sara, Gmail) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Sara, Gmail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(Luis, Yahoo)">
+                  </a> <!-- testMethod(Luis, Yahoo) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Luis, Yahoo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod(Lorena, Amazon)">
+                  </a> <!-- testMethod(Lorena, Amazon) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Lorena, Amazon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--1283472162\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\lalvarez\AppData\Local\Temp\testng-eclipse--1959716630\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +460,16 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.DataProviderClassByITestContext&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.TestNG&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.DataProviderClass&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.ParameterByMethod&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.TestNGAnnotations&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.DataProviderClassByMethod&quot;/&gt;
       &lt;class name=&quot;org.testerselenium.intermedio.JavaScript&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.DataProviderExample&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.ParameterByITestContext&quot;/&gt;
+      &lt;class name=&quot;org.testerselenium.intermedio.ActionsExample&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -170,7 +483,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -180,6 +493,22 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">A</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMethodA</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">B</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMethodB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -196,20 +525,84 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'registerAnUser')
 data.setCell(0, 2, 'org.testerselenium.intermedio.JavaScript')
-data.setCell(0, 3, 51573);
+data.setCell(0, 3, 24447);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'goToRegisterPage')
 data.setCell(1, 2, 'org.testerselenium.intermedio.JavaScript')
-data.setCell(1, 3, 4199);
+data.setCell(1, 3, 4158);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMethod')
+data.setCell(2, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(2, 3, 3240);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMethod')
+data.setCell(3, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(3, 3, 3202);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMethod')
+data.setCell(4, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(4, 3, 3171);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMethod')
+data.setCell(5, 2, 'org.testerselenium.intermedio.DataProviderExample')
+data.setCell(5, 3, 3154);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'register')
+data.setCell(6, 2, 'org.testerselenium.intermedio.TestNG')
+data.setCell(6, 3, 2546);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMethodA')
+data.setCell(7, 2, 'org.testerselenium.intermedio.ParameterByMethod')
+data.setCell(7, 3, 2195);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMethodB')
+data.setCell(8, 2, 'org.testerselenium.intermedio.ParameterByMethod')
+data.setCell(8, 3, 2175);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMethodA')
+data.setCell(9, 2, 'org.testerselenium.intermedio.ParameterByMethod')
+data.setCell(9, 3, 2174);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMethodA')
+data.setCell(10, 2, 'org.testerselenium.intermedio.ParameterByMethod')
+data.setCell(10, 3, 2170);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testMethodA')
+data.setCell(11, 2, 'org.testerselenium.intermedio.ParameterByMethod')
+data.setCell(11, 3, 2167);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testMethodB')
+data.setCell(12, 2, 'org.testerselenium.intermedio.ParameterByMethod')
+data.setCell(12, 3, 2162);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMethodB')
+data.setCell(13, 2, 'org.testerselenium.intermedio.ParameterByMethod')
+data.setCell(13, 3, 2162);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCase2')
+data.setCell(14, 2, 'org.testerselenium.intermedio.TestNGAnnotations')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCase1')
+data.setCell(15, 2, 'org.testerselenium.intermedio.TestNGAnnotations')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMethodA')
+data.setCell(16, 2, 'org.testerselenium.intermedio.ParameterByITestContext')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testMethodB')
+data.setCell(17, 2, 'org.testerselenium.intermedio.ParameterByITestContext')
+data.setCell(17, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -224,9 +617,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.testerselenium.intermedio.TestNG</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">support</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -235,23 +635,213 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.TestNGAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.DataProviderExample</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">org.testerselenium.intermedio.JavaScript</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">7009 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.ParameterByITestContext</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12440 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.ParameterByMethod</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17032 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">21690 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.TestNGAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">26862 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.ParameterByMethod</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethodA(Fernando, Google)</span>
+                <span class="method-start">26890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethodA(Luis, Yahoo)</span>
+                <span class="method-start">29087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethodA(Sara, Gmail)</span>
+                <span class="method-start">31261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethodA(Lorena, Amazon)</span>
+                <span class="method-start">33430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethodB(Mexico)</span>
+                <span class="method-start">35609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethodB(China)</span>
+                <span class="method-start">37786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethodB(Rusia)</span>
+                <span class="method-start">39950 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.JavaScript</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">goToRegisterPage</span>
-                <span class="method-start">6199 ms</span>
+                <span class="method-start">42113 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.TestNGAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">46276 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">46276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase1</span>
+                <span class="method-start">46277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">46280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">46280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase2</span>
+                <span class="method-start">46281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">46286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">46286 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.DataProviderExample</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethod(Fernando, Google)</span>
+                <span class="method-start">46288 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">registerAnUser</span>
-                <span class="method-start">10402 ms</span>
+                <span class="method-name">testMethod(Luis, Yahoo)</span>
+                <span class="method-start">49530 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(Sara, Gmail)</span>
+                <span class="method-start">52687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(Lorena, Amazon)</span>
+                <span class="method-start">55860 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.JavaScript</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">registerAnUser</span>
+                <span class="method-start">59074 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">83525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register</span>
+                <span class="method-start">83543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBakToHomePage</span>
+                <span class="method-start">86091 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.DataProviderExample</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">61984 ms</span>
+                <span class="method-start">86750 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.JavaScript</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87406 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.ParameterByITestContext</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88128 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.ParameterByMethod</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88799 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89557 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testerselenium.intermedio.TestNGAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">90268 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">90369 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

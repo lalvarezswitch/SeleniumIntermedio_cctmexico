@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.testerselenium.intermedio.JavaScript">
+      <class name="org.testerselenium.intermedio.ParameterByITestContext">
         <methods>
+          <include name="setUp"/>
+          <include name="testMethodB"/>
+          <include name="testMethodA"/>
           <include name="tearDown"/>
-          <include name="launchBrowser"/>
-          <include name="registerAnUser"/>
         </methods>
-      </class> <!-- org.testerselenium.intermedio.JavaScript -->
+      </class> <!-- org.testerselenium.intermedio.ParameterByITestContext -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

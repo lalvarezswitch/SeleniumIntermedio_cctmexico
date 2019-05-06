@@ -9,11 +9,75 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">62.718</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">16</td><td class="num">0</td><td class="num attn">2</td><td class="num">90.254</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">org.testerselenium.intermedio.JavaScript</td><td><a href="#m0">goToRegisterPage</a></td><td rowspan="1">1556891209336</td><td rowspan="1">4199</td></tr><tr class="passedeven"><td><a href="#m1">registerAnUser</a></td><td rowspan="1">1556891213539</td><td rowspan="1">51573</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">org.testerselenium.intermedio.ParameterByITestContext</td><td><a href="#m0">testMethodA</a></td><td rowspan="1">1557165262733</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m1">testMethodB</a></td><td rowspan="1">1557165262736</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">org.testerselenium.intermedio.DataProviderExample</td><td><a href="#m2">testMethod</a></td><td rowspan="4">1557165249952</td><td rowspan="4">3240</td></tr><tr class="passedeven"><td><a href="#m3">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m4">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m5">testMethod</a></td></tr><tr class="passedodd"><td rowspan="2">org.testerselenium.intermedio.JavaScript</td><td><a href="#m6">goToRegisterPage</a></td><td rowspan="1">1557165245777</td><td rowspan="1">4158</td></tr><tr class="passedodd"><td><a href="#m7">registerAnUser</a></td><td rowspan="1">1557165262738</td><td rowspan="1">24447</td></tr><tr class="passedeven"><td rowspan="7">org.testerselenium.intermedio.ParameterByMethod</td><td><a href="#m8">testMethodA</a></td><td rowspan="4">1557165232751</td><td rowspan="4">2170</td></tr><tr class="passedeven"><td><a href="#m9">testMethodA</a></td></tr><tr class="passedeven"><td><a href="#m10">testMethodA</a></td></tr><tr class="passedeven"><td><a href="#m11">testMethodA</a></td></tr><tr class="passedeven"><td><a href="#m12">testMethodB</a></td><td rowspan="3">1557165241450</td><td rowspan="3">2162</td></tr><tr class="passedeven"><td><a href="#m13">testMethodB</a></td></tr><tr class="passedeven"><td><a href="#m14">testMethodB</a></td></tr><tr class="passedodd"><td rowspan="1">org.testerselenium.intermedio.TestNG</td><td><a href="#m15">register</a></td><td rowspan="1">1557165287207</td><td rowspan="1">2546</td></tr><tr class="passedeven"><td rowspan="2">org.testerselenium.intermedio.TestNGAnnotations</td><td><a href="#m16">testCase1</a></td><td rowspan="1">1557165249941</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m17">testCase2</a></td><td rowspan="1">1557165249945</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">org.testerselenium.intermedio.JavaScript#goToRegisterPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">org.testerselenium.intermedio.JavaScript#registerAnUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">org.testerselenium.intermedio.ParameterByITestContext#testMethodA</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">org.testerselenium.intermedio.ParameterByITestContext#testMethodB</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] org.testerselenium.intermedio.DataProviderClassByITestContext.getDataFromDataProvider(org.testng.ITestContext) returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">org.testerselenium.intermedio.DataProviderExample#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Fernando</td><td>Google</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">org.testerselenium.intermedio.DataProviderExample#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sara</td><td>Gmail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">org.testerselenium.intermedio.DataProviderExample#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Luis</td><td>Yahoo</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">org.testerselenium.intermedio.DataProviderExample#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Lorena</td><td>Amazon</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">org.testerselenium.intermedio.JavaScript#goToRegisterPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">org.testerselenium.intermedio.JavaScript#registerAnUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">org.testerselenium.intermedio.ParameterByMethod#testMethodA</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Luis</td><td>Yahoo</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">org.testerselenium.intermedio.ParameterByMethod#testMethodA</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sara</td><td>Gmail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">org.testerselenium.intermedio.ParameterByMethod#testMethodA</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Fernando</td><td>Google</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">org.testerselenium.intermedio.ParameterByMethod#testMethodA</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Lorena</td><td>Amazon</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">org.testerselenium.intermedio.ParameterByMethod#testMethodB</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>China</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">org.testerselenium.intermedio.ParameterByMethod#testMethodB</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Mexico</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">org.testerselenium.intermedio.ParameterByMethod#testMethodB</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Rusia</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">org.testerselenium.intermedio.TestNG#register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">org.testerselenium.intermedio.TestNGAnnotations#testCase1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">org.testerselenium.intermedio.TestNGAnnotations#testCase2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
