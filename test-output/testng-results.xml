@@ -1,152 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9670" started-at="2019-05-06T21:08:06Z" finished-at="2019-05-06T21:08:15Z">
+  <suite name="Default suite" duration-ms="8649" started-at="2019-05-07T15:00:45Z" finished-at="2019-05-07T15:00:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9670" started-at="2019-05-06T21:08:06Z" finished-at="2019-05-06T21:08:15Z">
-      <class name="org.testerselenium.intermedio.reports.PdfEmail">
-        <test-method status="FAIL" signature="testOne()[pri:0, instance:org.testerselenium.intermedio.reports.PdfEmail@60bd273d]" name="testOne" duration-ms="971" started-at="2019-05-06T21:08:07Z" finished-at="2019-05-06T21:08:08Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at org.testerselenium.intermedio.reports.PdfEmail.testOne(PdfEmail.java:17)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test name="Default test" duration-ms="8649" started-at="2019-05-07T15:00:45Z" finished-at="2019-05-07T15:00:54Z">
+      <class name="org.testerselenium.intermedio.video.VideoRecorder">
+        <test-method status="PASS" signature="videoTest()[pri:0, instance:org.testerselenium.intermedio.video.VideoRecorder@3532ec19]" name="videoTest" duration-ms="8610" started-at="2019-05-07T15:00:45Z" finished-at="2019-05-07T15:00:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="FAIL" signature="testThree()[pri:0, instance:org.testerselenium.intermedio.reports.PdfEmail@60bd273d]" name="testThree" duration-ms="4316" started-at="2019-05-06T21:08:08Z" finished-at="2019-05-06T21:08:12Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at org.testerselenium.intermedio.reports.PdfEmail.testThree(PdfEmail.java:29)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:org.testerselenium.intermedio.reports.PdfEmail@60bd273d]" name="testTwo" duration-ms="1763" started-at="2019-05-06T21:08:13Z" finished-at="2019-05-06T21:08:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testerselenium.intermedio.reports.PdfEmail@60bd273d]" name="closeBrowser" is-config="true" duration-ms="759" started-at="2019-05-06T21:08:15Z" finished-at="2019-05-06T21:08:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="FAIL" signature="sendEmail()[pri:0, instance:org.testerselenium.intermedio.reports.PdfEmail@60bd273d]" name="sendEmail" is-config="true" duration-ms="8" started-at="2019-05-06T21:08:16Z" finished-at="2019-05-06T21:08:16Z">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[com/sun/mail/util/MailLogger]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
-at javax.mail.Session.initLogger(Session.java:283)
-at javax.mail.Session.<init>(Session.java:268)
-at javax.mail.Session.getDefaultInstance(Session.java:378)
-at javax.mail.Session.getDefaultInstance(Session.java:418)
-at org.testerselenium.intermedio.reports.BaseClass.sendPdfReportByEmail(BaseClass.java:57)
-at org.testerselenium.intermedio.reports.PdfEmail.sendEmail(PdfEmail.java:39)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
-at java.net.URLClassLoader.findClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendEmail -->
-      </class> <!-- org.testerselenium.intermedio.reports.PdfEmail -->
+        </test-method> <!-- videoTest -->
+      </class> <!-- org.testerselenium.intermedio.video.VideoRecorder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
